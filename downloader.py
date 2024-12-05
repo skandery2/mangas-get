@@ -127,7 +127,7 @@ def get_args():
     parser.add_argument(
         "--force-title",
         type=str,
-        default=None,
+        default="%title%/%title% - %volume_2d%x%chapter_3d%/%title% - %volume_2d%x%chapter_3d%",
         help="Le titre à utiliser dans les noms de fichier, à la place de celui trouvé sur la page",
     )
     parser.add_argument(
